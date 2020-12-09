@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-indicators{
+top: 365px;}
+.carousel-indicators > li{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #0b76bd;
+}
+
+
+#prev-id-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    position: absolute;
+    bottom: 250px;
+    right: 150px;
+}
+
+#next-id-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    position: absolute;
+    left: 1050px;
+    top: 30px;
+}
+
+#next-id{
+    position: relative;
+}
+#prev-id{
+    position: relative;
+}
+
+#next-id-two{
+    position: relative;
+}
+#next-id-icon-two{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+.img-logo{
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #18ac6e;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
+.sub-links{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px ;
+    font-size: 17px;
+}
+.down-btn{
+    margin: 30px 70px;
+}
+.curve{
+    width: 83%;
+    height: 100%;
+    background: rgb(91,153,242);
+background: linear-gradient(90deg, rgba(91,153,242,1) 4%, rgba(219,84,64,1) 100%);
+    position: relative;
+    border-radius: 20px;
+}
+.rectangle{
+    width: 93%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.curve-two{
+    width: 83%;
+    height: 300px;
+    background: rgb(91,153,242);
+background: linear-gradient(90deg, rgba(91,153,242,1) 4%, rgba(219,84,64,1) 100%);
+    position: relative;
+    border-radius: 20px;
+}
+.rectangle-two{
+    width: 93%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.play-btn{
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.play-btn:hover{
+    cursor: pointer;
+}
+.card-img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.sub-card{
+    display: flex;
+        width: 200px;
+        background: linear-gradient(to right, rgb(255, 212, 220) 50%, white 50%);
+        margin-left: 80px;
+        border-radius: 0px 30px 30px 0px;;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.shape12
+{display:inline-block!important;
+    width:550px;
+    height:348px;
+    background-color:#eff5f8;
+
+    border-radius:100%;
+}
+.img-m{
+    width: 350px;
+    height: 350px;
+}
+.shape-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.shape13{
+    display:inline-block!important;
+    width:550px;
+    height:348px;
+    background-color:#f4fcfc;
+
+    border-radius:100%;
+}
+
+.card{
+    display: inline-block;
+}
+
+.circle-card{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+.circle-div{
+    margin-left: 80px;
+}
+.live-card{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.live-img{
+    width: 500px;
+}
+.live text{
+    margin-top: 1px;
+}
+.live-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-danger{
+    padding: 5px 45px;
+    border-radius: 10px;
+    background-color: rgb(207, 45, 45);
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+
+.myCard{
+    padding: 5px 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.heading{
+                font-family: 'Lato', sans-serif;
+                            margin-top: 120px;
+}
+.heading-img{
+    margin-top: 2px;
+}
+.arrow{
+    margin-left: 0px;}
+
+.first-card{
+    border-radius: 50%;
+}
+.second-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    height: 80%;
+    color: #0b76bd;
+    margin-left: 20px;
+    text-align: center;
+}
+.tutor-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tutor-sub-card{
+    margin-left: 130px;
+}
+@media screen and (max-width:1000px){
+    .nav-ul{
+        display: inline;
+        text-align: center;
+    }
+    
+    .shape-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .heading{
+        text-align:center;
+    }
+    .heading-img{
+        text-align: center;
+        margin-top: 20px;
+        
+        
+    }
+    .carousel-control-prev > carousel-control-prev-icon {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-color: rgba(0, 0, 0, 0.3);
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 1px solid black;
+        color: black;
+    }
+    #next-id-icon,#next-id-icon-two{
+        left: 250px;
+    }
+
+    #prev-id-icon{
+        bottom: 650px;
+        right: 50px;
+    }
+    .curve{
+        width: 500px;
+        height: 250px;
+        margin-left: 250px;
+        display: inline-block;
+    }
+    .curve-two{
+        width: 500px;
+        height: 250px;
+        margin-left: 250px;
+        display: inline-block;
+    }
+    .sub-card{
+        margin: 10px 20px;
+        text-align: center;
+    }
+    .main-card{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
+    .live-text{
+        margin-top: 35px;
+    }
+    .live-img{
+        width: 400px;
+        height: 350px;
+    }
+    .carousel-indicators{
+        margin-top: 130px;
+        }
+    
+   .tutor-sub-card{
+       margin-left: 0;
+   }
+  .tutor-card{
+      margin-top: 20px;
+  }
+}
+@media screen and (max-width:750px){
+    #next-id-icon,#next-id-icon-two{
+        left: 440px;
+    }
+}
+@media screen and (max-width:537px){
+   
+    .curve{
+        width: 400px;
+      
+    }
+    .curve-two{
+        width: 400px;
+
+    }
+    .arrow{
+        margin:20px 0px;
+    }
+    .live-img{
+        width: 300px;
+        height: 250px;
+    }
+    .live-card{
+        width: 350px;
+    }
+    .carousel-indicators{
+        margin-top: 50px;
+        }
+        #next-id-icon,#next-id-icon-two{
+            left: 440px;
+        }
+       
+}
+
+@media screen and (max-width:440px){
+ 
+    .curve{
+        width: 230px;
+        height: 180px;
+    }
+    .curve-two{
+        width: 230px;
+        height: 180px;
+    }
+    .img-m{
+        width: 200px;
+        height: 200px;
+    }
+    .live-img{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:420px){
+    .carousel-indicators{
+        margin-top: 5px;
+        }
+        #next-id-icon,#next-id-icon-two{
+            left: 280px;
+        }
+        #prev-id-icon{
+            bottom: 680px;
+            right: 10px;
+        }
+}
+@media screen and (max-width:350px){
+    #next-id-icon,#next-id-icon-two{
+        left: 200px;
+    }
+
+}
